@@ -11807,9 +11807,8 @@
 /area/vtm/interior/tzimisce_sanctum)
 "dqg" = (
 /obj/structure/platform/lowwall/painted/window/reinforced,
-/obj/structure/window/reinforced/tinted{
-	opacity = 1;
-	dir = 4
+/obj/structure/window/reinforced/tinted/spawner/directional/east{
+	opacity = 1
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
@@ -30380,13 +30379,6 @@
 "iMN" = (
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/wyrm_corrupted)
-"iMR" = (
-/obj/structure/platform/lowwall/painted/window/reinforced,
-/obj/structure/window/reinforced/tinted/spawner/directional/east{
-	opacity = 1
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/interior/clinic)
 "iMZ" = (
 /obj/effect/decal/wallpaper/stone,
 /turf/closed/wall/vampwall/rich,
@@ -187600,9 +187592,9 @@ tNF
 bUt
 bUt
 bUt
-iMR
-iMR
-iMR
+dqg
+dqg
+dqg
 bUt
 bUt
 bUt
