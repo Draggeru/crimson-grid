@@ -41246,6 +41246,10 @@
 "lqc" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/dark_blue,
+/obj/machinery/fax/clinic{
+	pixel_x = 0;
+	pixel_y = 6
+	},
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/clinic)
 "lqg" = (
