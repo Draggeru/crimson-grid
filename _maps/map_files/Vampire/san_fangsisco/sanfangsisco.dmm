@@ -29755,9 +29755,6 @@
 /obj/structure/table/wood,
 /obj/item/storage/pill_bottle/lsd,
 /obj/structure/coclock,
-/obj/item/vamp/keys/clinic,
-/obj/item/vamp/keys/clinic,
-/obj/item/vamp/keys/clinic,
 /obj/structure/fluff/paper{
 	dir = 9
 	},
@@ -48236,10 +48233,10 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch)
 "nlb" = (
-/obj/structure/fake_stairs/directional/west,
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
 	},
+/obj/structure/stairs/west,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/salubri)
 "nlc" = (
@@ -49647,10 +49644,6 @@
 "nFQ" = (
 /obj/structure/table/wood,
 /obj/item/grenade/chem_grenade/ez_clean,
-/obj/item/vamp/keys/camarilla{
-	accesslocks = list("malkav","malkav1","malkav2");
-	name = "Master key"
-	},
 /obj/structure/fluff/paper{
 	dir = 8
 	},
@@ -56835,7 +56828,9 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/hotel)
 "pBJ" = (
-/obj/darkpack_car/rand,
+/obj/darkpack_car/track/volkswagen{
+	access = "salubri"
+	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/ghetto)
 "pBN" = (
@@ -57679,9 +57674,9 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/laundromat,
-/obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/seven,
+/obj/effect/mapping_helpers/door/unlock,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior/laundromat)
 "pLB" = (
@@ -63464,6 +63459,10 @@
 /obj/item/vamp/keys/malkav,
 /obj/structure/fluff/paper{
 	dir = 5
+	},
+/obj/item/vamp/keys/camarilla{
+	pixel_x = -8;
+	pixel_y = 2
 	},
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/clinic/haven)
@@ -86052,17 +86051,6 @@
 "xAj" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small/directional/north,
-/obj/item/vamp/keys/archive{
-	accesslocks = list("malkav1");
-	name = "malkavian room1 keys";
-	pixel_x = -6;
-	pixel_y = -6
-	},
-/obj/item/vamp/keys/archive{
-	accesslocks = list("malkav2");
-	name = "malkavian room2 keys";
-	pixel_x = 6
-	},
 /obj/structure/fluff/paper{
 	dir = 1
 	},
