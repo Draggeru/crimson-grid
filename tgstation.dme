@@ -8360,6 +8360,7 @@
 #include "modular_vcg\modules\jobs\code\camarilla\primogens\nosferatu.dm"
 #include "modular_vcg\modules\jobs\code\camarilla\primogens\toreador.dm"
 #include "modular_vcg\modules\jobs\code\camarilla\primogens\ventrue.dm"
+#include "modular_vcg\modules\jobs\code\clinic\clinic_guard.dm"
 #include "modular_vcg\modules\jobs\code\clinic\director.dm"
 #include "modular_vcg\modules\jobs\code\clinic\doctor.dm"
 #include "modular_vcg\modules\jobs\code\garou\councillor.dm"
