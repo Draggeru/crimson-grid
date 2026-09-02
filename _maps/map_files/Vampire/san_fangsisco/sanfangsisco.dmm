@@ -612,6 +612,7 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 5
 	},
+/obj/structure/chair/comfy/darkpack/dark,
 /turf/open/floor/carpet/royalblue,
 /area/vtm/interior/clinic)
 "aiF" = (
@@ -1108,7 +1109,6 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/giovanni/basement)
 "apM" = (
-/obj/structure/chair/comfy/beige,
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
 	},
@@ -2262,6 +2262,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 9
+	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/clinic)
 "aFe" = (
@@ -2839,6 +2842,10 @@
 /obj/vampire_computer,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/bianchiBank)
+"aNU" = (
+/obj/effect/landmark/start/darkpack/hospital/clinic_guard,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/clinic)
 "aNX" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -16852,6 +16859,9 @@
 	dir = 1;
 	color = "#6d281e"
 	},
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/clinic)
 "eDf" = (
@@ -18789,6 +18799,7 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 5
 	},
+/obj/effect/landmark/start/darkpack/hospital/clinic_guard,
 /turf/open/floor/carpet/blue,
 /area/vtm/interior/clinic)
 "fdv" = (
@@ -34975,6 +34986,7 @@
 	pixel_x = 1;
 	pixel_y = 2
 	},
+/obj/effect/landmark/start/darkpack/hospital/clinic_guard,
 /turf/open/floor/city/clinic,
 /area/vtm/interior/clinic)
 "jCF" = (
@@ -35464,6 +35476,7 @@
 	pixel_x = 10;
 	pixel_y = -8
 	},
+/obj/item/storage/pill_bottle/mutadone,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "jKh" = (
@@ -42368,6 +42381,9 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 1
+	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/clinic)
 "lGA" = (
@@ -55993,6 +56009,7 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 9
 	},
+/obj/structure/chair/comfy/darkpack/dark,
 /turf/open/floor/carpet/royalblue,
 /area/vtm/interior/clinic)
 "pqq" = (
@@ -65005,7 +65022,7 @@
 	dir = 1
 	},
 /obj/structure/table/rolling,
-/obj/item/surgery_tray/full,
+/obj/item/surgery_tray/full/morgue,
 /obj/item/clothing/suit/apron/surgical,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/clinic)
@@ -67919,11 +67936,11 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/northbeach)
 "svL" = (
-/obj/structure/chair/comfy/beige{
-	dir = 1
-	},
 /obj/effect/landmark/start/darkpack/hospital/clinic_director,
 /obj/effect/turf_decal/siding/grey,
+/obj/structure/chair/comfy/darkpack/dark{
+	dir = 1
+	},
 /turf/open/floor/carpet/royalblue,
 /area/vtm/interior/clinic)
 "svM" = (
@@ -70880,6 +70897,12 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/park)
+"tnW" = (
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 9
+	},
+/turf/open/floor/carpet/darkpack,
+/area/vtm/interior/clinic)
 "tnZ" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/graffiti,
@@ -74727,6 +74750,7 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 10
 	},
+/obj/effect/landmark/start/darkpack/hospital/clinic_guard,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "usX" = (
@@ -75630,6 +75654,9 @@
 /turf/open/floor/plating/granite,
 /area/vtm/interior)
 "uEM" = (
+/obj/effect/turf_decal/siding/wood/dark/corner{
+	dir = 1
+	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/clinic)
 "uEQ" = (
@@ -76899,6 +76926,13 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
+"uWY" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 1
+	},
+/obj/effect/landmark/start/darkpack/hospital/clinic_guard,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/clinic)
 "uWZ" = (
 /obj/machinery/light/prince/directional/east,
 /turf/open/openspace,
@@ -80254,11 +80288,15 @@
 "vVc" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/glass/coffee_cup{
-	pixel_x = -5;
-	pixel_y = 0
+	pixel_x = 7;
+	pixel_y = -2
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
+	},
+/obj/machinery/recharger{
+	pixel_y = 5;
+	pixel_x = -5
 	},
 /turf/open/floor/carpet/blue,
 /area/vtm/interior/clinic)
@@ -186346,7 +186384,7 @@ pGJ
 pGJ
 xaZ
 okn
-rFE
+uWY
 drv
 drv
 nXc
@@ -249571,7 +249609,7 @@ jcx
 jcx
 jcx
 jcx
-jcx
+aNU
 diA
 hNZ
 hNZ
@@ -251115,7 +251153,7 @@ jcx
 jcx
 uSE
 jcx
-uEM
+tnW
 uEM
 wcc
 bUt

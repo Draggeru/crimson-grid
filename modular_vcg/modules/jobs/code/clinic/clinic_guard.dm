@@ -38,6 +38,6 @@
 	belt = /obj/item/storage/belt/security/police
 	id = /obj/item/card/clinic
 	l_pocket = /obj/item/smartphone/clinic_officer
-	r_pocket = /obj/item/vamp/keys/clinic
+	r_pocket = /obj/item/vamp/keys/clinics_director
 	backpack_contents = list(/obj/item/card/credit=1, /obj/item/ammo_box/darkpack/c9mm = 1, /obj/item/gun/ballistic/automatic/pistol/darkpack/m1911 = 1)
 
