@@ -1,8 +1,8 @@
 /datum/job/vampire/clinic_guard
 	title = JOB_CLINIC_GUARD
 	faction = FACTION_CITY
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 3
+	spawn_positions = 3
 	supervisors = SUPERVISOR_CLINIC_DIRECTOR
 	config_tag = "CLINIC_GUARD"
 	outfit = /datum/outfit/job/vampire/clinic_guard
@@ -17,7 +17,7 @@
 		"Hospise Orderly",
 	)
 
-	allowed_splats = list(SPLAT_GHOUL, SPLAT_KINFOLK, SPLAT_NONE)
+	allowed_splats = list(SPLAT_GHOUL, SPLAT_KINFOLK, SPLAT_NONE, SPLAT_GAROU, SPLAT_KINDRED)
 	splat_slots = list(SPLAT_GHOUL = 2, SPLAT_KINFOLK = 2)
 
 	description = "As an Orderly for the Hospital your main job is ensuring the security of medical staff, patients, and equipment."
@@ -35,7 +35,7 @@
 
 	uniform = /obj/item/clothing/under/vampire/guard
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
-	belt = /obj/item/storage/belt/security/full
+	belt = /obj/item/storage/belt/security/police
 	id = /obj/item/card/clinic
 	l_pocket = /obj/item/smartphone/clinic_officer
 	r_pocket = /obj/item/vamp/keys/clinic
