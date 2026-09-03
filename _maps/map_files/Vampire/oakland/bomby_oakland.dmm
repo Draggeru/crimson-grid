@@ -64,9 +64,8 @@
 /turf/open/floor/city/gummaguts,
 /area/vtm/westfield_mall/interior)
 "aaV" = (
-/obj/structure/platform/lowwall/city,
-/obj/structure/table,
-/obj/effect/decal/wallpaper/blue/low,
+/obj/machinery/computer/operating,
+/obj/machinery/defibrillator_mount/directional/north,
 /turf/open/floor/city/circled,
 /area/vtm/interior/salubri)
 "aaZ" = (
@@ -30457,11 +30456,12 @@
 /turf/open/floor/city/industrial,
 /area/vtm/interior/supply)
 "hoI" = (
-/obj/machinery/defibrillator_mount/directional/east,
-/obj/machinery/iv_drip,
 /obj/effect/turf_decal/siding/grey{
 	dir = 6
 	},
+/obj/structure/platform/lowwall/city,
+/obj/structure/table,
+/obj/item/defibrillator/loaded,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/salubri)
 "hoJ" = (
@@ -46515,8 +46515,10 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop)
 "lfP" = (
-/obj/structure/table/optable,
 /obj/effect/turf_decal/siding/grey{
+	dir = 1
+	},
+/obj/structure/chair/office{
 	dir = 1
 	},
 /turf/open/floor/city/circled/large,
@@ -53335,6 +53337,10 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/outside/giovanni/courtyard)
+"mNd" = (
+/obj/structure/bed/dogbed,
+/turf/open/floor/city/circled,
+/area/vtm/interior/salubri)
 "mNh" = (
 /obj/structure/vampstatue/cloaked,
 /turf/open/floor/wood/smooth/old,
@@ -54898,10 +54904,10 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/tzimisce_manor)
 "neC" = (
-/obj/machinery/computer/operating,
 /obj/effect/turf_decal/siding/grey{
 	dir = 5
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/salubri)
 "neD" = (
@@ -59477,10 +59483,7 @@
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/subway)
 "ohu" = (
-/obj/structure/platform/lowwall/city,
-/obj/item/defibrillator/loaded,
-/obj/structure/table,
-/obj/effect/decal/wallpaper/blue/low,
+/obj/structure/table/optable,
 /turf/open/floor/city/circled,
 /area/vtm/interior/salubri)
 "ohv" = (
@@ -73716,6 +73719,7 @@
 /obj/item/stock_parts/power_store/cell,
 /obj/item/screwdriver,
 /obj/structure/table,
+/obj/effect/decal/wallpaper/blue/low,
 /turf/open/floor/city/circled,
 /area/vtm/interior/salubri)
 "rAi" = (
@@ -89139,9 +89143,6 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility)
 "vmv" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/grey,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/salubri)
@@ -176207,7 +176208,7 @@ mkx
 cbh
 qyX
 eOM
-eOM
+mNd
 eOM
 tJZ
 iLU
@@ -176410,7 +176411,7 @@ czG
 sWj
 cbh
 qyX
-eOM
+mNd
 hpD
 tLS
 eZs
