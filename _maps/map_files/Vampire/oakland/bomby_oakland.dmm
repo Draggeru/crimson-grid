@@ -21565,7 +21565,6 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazzclub)
 "fiS" = (
-/obj/structure/bodycontainer/morgue,
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
@@ -24625,7 +24624,9 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/siding/white/corner,
-/obj/structure/hedge,
+/obj/structure/bodycontainer/morgue{
+	dir = 2
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "fUc" = (
@@ -51956,7 +51957,9 @@
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 4
 	},
-/obj/structure/hedge,
+/obj/structure/bodycontainer/morgue{
+	dir = 1
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "mtT" = (
