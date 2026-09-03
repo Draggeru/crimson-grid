@@ -1934,7 +1934,7 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
-/obj/effect/mapping_helpers/door/lock_difficulty/five,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "aAt" = (
@@ -8210,12 +8210,12 @@
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/access/salubri,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/obj/effect/mapping_helpers/door/bash_difficulty/seven,
 /obj/effect/turf_decal/siding/grey,
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "ckO" = (
@@ -8894,7 +8894,7 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
-/obj/effect/mapping_helpers/door/lock_difficulty/five,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "cto" = (
@@ -19208,6 +19208,10 @@
 	pixel_x = 0;
 	pixel_y = 13
 	},
+/obj/item/storage/box/rxglasses{
+	pixel_x = 6;
+	pixel_y = 5
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "fjc" = (
@@ -22929,6 +22933,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/grey,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
+/obj/effect/mapping_helpers/door/lock_difficulty/two,
+/obj/effect/mapping_helpers/door/unlock,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "ghS" = (
@@ -28916,14 +28923,14 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/obj/effect/mapping_helpers/door/bash_difficulty/seven,
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "hPI" = (
@@ -35477,6 +35484,7 @@
 	pixel_y = -8
 	},
 /obj/item/storage/pill_bottle/mutadone,
+/obj/item/storage/pill_bottle/mannitol,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "jKh" = (
@@ -36899,14 +36907,14 @@
 	},
 /obj/effect/mapping_helpers/door/access/salubri,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/obj/effect/mapping_helpers/door/bash_difficulty/seven,
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "kdJ" = (
@@ -58335,12 +58343,12 @@
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/access/salubri,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/obj/effect/mapping_helpers/door/bash_difficulty/seven,
 /obj/effect/turf_decal/siding/grey,
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "pVt" = (
@@ -59457,6 +59465,7 @@
 	dir = 4
 	},
 /mob/living/carbon/human/npc/pharmacystore,
+/obj/effect/mapping_helpers/mob_buckler,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/salubri)
 "qlG" = (
@@ -69585,8 +69594,10 @@
 /area/vtm/interior/bianchiBank)
 "sUN" = (
 /obj/structure/table/wood,
-/obj/structure/retail/pharmacy,
 /obj/structure/platform/lowwall/city,
+/obj/structure/retail/pharmacy{
+	dir = 8
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "sUW" = (
@@ -80774,14 +80785,14 @@
 	},
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/access/salubri,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/obj/effect/mapping_helpers/door/bash_difficulty/seven,
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "wbM" = (
@@ -85865,8 +85876,8 @@
 /obj/structure/vampdoor/old,
 /obj/effect/mapping_helpers/door/access/salubri,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/mapping_helpers/door/lock_difficulty/seven,
-/obj/effect/mapping_helpers/door/bash_difficulty/seven,
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/salubri)
 "xui" = (
