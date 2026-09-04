@@ -10849,6 +10849,8 @@
 /obj/structure/vampdoor{
 	name = "Foyer"
 	},
+/obj/effect/turf_decal/siding/grey,
+/obj/effect/turf_decal/siding/grey,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "cCp" = (
