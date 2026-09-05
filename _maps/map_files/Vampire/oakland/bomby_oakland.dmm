@@ -67199,6 +67199,9 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
 /turf/open/floor/city/clinic,
 /area/vtm/interior/salubri)
 "pVM" = (
