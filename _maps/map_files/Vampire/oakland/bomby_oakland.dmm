@@ -15122,10 +15122,7 @@
 	pixel_x = -6;
 	pixel_y = 10
 	},
-/obj/item/knife{
-	pixel_x = 3;
-	pixel_y = 4
-	},
+/obj/item/knife/kitchen,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/salubri)
 "dFm" = (
