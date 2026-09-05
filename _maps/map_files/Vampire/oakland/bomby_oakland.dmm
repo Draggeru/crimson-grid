@@ -12022,10 +12022,7 @@
 /turf/open/floor/carpet/royalblue,
 /area/vtm/interior/jazzclub)
 "cSE" = (
-/obj/structure/fluff/tv{
-	icon_state = "tv_off";
-	pixel_x = 29
-	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/east,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/clinic)
 "cSK" = (
@@ -36404,10 +36401,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/tzimisce_manor)
 "iJd" = (
-/obj/structure/fluff/tv{
-	icon_state = "tv_analog";
-	pixel_y = 29
-	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 9
 	},
@@ -41132,13 +41125,10 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior)
 "jQq" = (
-/obj/structure/fluff/tv{
-	icon_state = "tv_off";
-	pixel_y = 29
-	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 9
 	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/clinic)
 "jQA" = (
@@ -50926,6 +50916,21 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/interior/police/fed)
+"mih" = (
+/obj/structure/curtain,
+/obj/machinery/shower/directional/west,
+/obj/effect/turf_decal/stock{
+	dir = 8;
+	pixel_x = 10;
+	pixel_y = -1
+	},
+/obj/effect/turf_decal/stock{
+	dir = 4;
+	pixel_x = -10
+	},
+/obj/effect/turf_decal/siding/beige,
+/turf/open/floor/city/industrial/large,
+/area/vtm/interior/clinic)
 "mio" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/structure/roofstuff/vent_end{
@@ -67975,6 +67980,10 @@
 /obj/structure/bury_pit,
 /turf/open/misc/dirt,
 /area/vtm/interior/tzimisce_sanctum)
+"qgd" = (
+/obj/machinery/status_display/evac/directional/east,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/clinic)
 "qge" = (
 /obj/structure/vampdoor/old{
 	dir = 4
@@ -71650,6 +71659,11 @@
 /obj/effect/turf_decal/siding/grey,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
+"qZT" = (
+/obj/effect/decal/wallpaper/paper/stripe,
+/obj/structure/fluff/tv/news,
+/turf/closed/wall/vampwall/painted,
+/area/vtm/interior/clinic)
 "rae" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -259818,7 +259832,7 @@ mjT
 mjT
 dTE
 ssj
-kFq
+qZT
 iJd
 hnK
 kaD
@@ -260847,7 +260861,7 @@ kaD
 kaD
 ucX
 bNq
-cSE
+qgd
 kaD
 bEV
 nfD
@@ -261247,7 +261261,7 @@ byh
 ssj
 ssj
 joX
-oKY
+mih
 asq
 joX
 joX
