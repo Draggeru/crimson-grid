@@ -32914,9 +32914,8 @@
 /turf/open/floor/plating/grate,
 /area/vtm/interior/wyrm_corrupted)
 "hVs" = (
-/obj/structure/chair/comfy/darkpack{
-	dir = 8;
-	color = "#36454F"
+/obj/structure/chair/comfy/darkpack/darkblue{
+	dir = 8
 	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -72632,6 +72631,13 @@
 	},
 /turf/open/floor/city/toilet,
 /area/vtm/interior/shop)
+"rmq" = (
+/obj/structure/roofstuff{
+	pixel_y = 6
+	},
+/obj/effect/turf_decal/bordur,
+/turf/open/floor/city/industrial/large,
+/area/vtm)
 "rmr" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -87295,9 +87301,8 @@
 /turf/open/floor/plating/canal,
 /area/vtm/interior)
 "uNu" = (
-/obj/structure/chair/comfy/darkpack{
-	dir = 4;
-	color = "#36454F"
+/obj/structure/chair/comfy/darkpack/darkblue{
+	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -264545,7 +264550,7 @@ mjT
 ucj
 xEp
 smY
-bwb
+rmq
 fJS
 xEp
 xEp
