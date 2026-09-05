@@ -3196,7 +3196,7 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
 	},
-/obj/structure/chair/office{
+/obj/structure/chair/office/darkpack/black{
 	dir = 1
 	},
 /turf/open/floor/city/circled/large,
@@ -4087,7 +4087,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
 "bbj" = (
-/obj/structure/chair/office{
+/obj/structure/chair/office/darkpack/black{
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/hospital/doctor,
@@ -34254,7 +34254,7 @@
 	},
 /area/vtm/interior/ghetto)
 "imh" = (
-/obj/structure/chair/office{
+/obj/structure/chair/office/darkpack/black{
 	dir = 8
 	},
 /mob/living/carbon/human/npc/guard,
@@ -44868,7 +44868,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/ghetto)
 "kLa" = (
-/obj/structure/chair/office,
+/obj/structure/chair/office/darkpack/black,
 /mob/living/carbon/human/npc/pharmacystore,
 /obj/effect/mapping_helpers/mob_buckler,
 /obj/machinery/light/small/directional/north,
@@ -53102,7 +53102,7 @@
 	pixel_x = -2;
 	pixel_y = 23
 	},
-/obj/structure/chair/office{
+/obj/structure/chair/office/darkpack/black{
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/hospital/doctor,
@@ -81645,7 +81645,7 @@
 	pixel_y = 15
 	},
 /obj/machinery/light/directional/south,
-/obj/structure/chair/office{
+/obj/structure/chair/office/darkpack/black{
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/hospital/doctor,
