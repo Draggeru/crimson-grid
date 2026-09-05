@@ -621,6 +621,7 @@
 "aiq" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/turf_decal/siding/wood/dark/end,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/salubri)
 "air" = (
@@ -46324,6 +46325,11 @@
 /obj/structure/platform/lowwall/city,
 /turf/open/floor/wood/herring,
 /area/vtm/interior/clinic/haven)
+"ldV" = (
+/obj/structure/table/wood,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/salubri)
 "lea" = (
 /obj/structure/curtain/bounty{
 	pixel_y = 15
@@ -93435,6 +93441,10 @@
 	},
 /turf/open/floor/wood/rough,
 /area/vtm/outside/forest)
+"wri" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/salubri)
 "wrm" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/wood/herring,
@@ -96499,6 +96509,7 @@
 	pixel_x = -9;
 	pixel_y = 8
 	},
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/salubri)
 "xaE" = (
@@ -133165,11 +133176,11 @@ vlN
 vlN
 pCr
 pyf
-pyf
+lNa
 xKt
 pyf
 lNa
-pCr
+ldV
 pCr
 pyf
 pyf
@@ -133369,7 +133380,7 @@ pZG
 vlN
 bJf
 lNa
-vlN
+wri
 vlN
 vlN
 lNa
@@ -133981,7 +133992,7 @@ vlN
 vlN
 pCr
 pyf
-pyf
+lNa
 xKt
 pyf
 lNa
