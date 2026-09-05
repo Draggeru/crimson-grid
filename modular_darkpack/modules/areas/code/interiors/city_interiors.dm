@@ -205,11 +205,27 @@
 	fire_controled = TRUE
 	domain = TRUE
 
+//CG Edit
+/area/vtm/interior/museum/art
+	name = "Art Museum"
+	fire_controled = TRUE
+	domain = FALSE
+
 /area/vtm/interior/trujah
 	name = "Antique Shop"
 	icon_state = "old_clan_tzimisce"
 	zone_type = ZONE_ELYSIUM
 	fire_controled = TRUE
+
+/area/vtm/interior/brujah
+	name = "Anarchist Gun Club"
+	icon_state = "old_clan_tzimisce"
+	zone_type = ZONE_ELYSIUM
+	fire_controled = TRUE
+
+/area/vtm/interior/brujah/haven
+	name = "Anarchist Gun Club - Basement"
+//End CG Edit
 
 /area/vtm/interior/baali
 	name = "Alcoholics Anonymous"
