@@ -54,7 +54,6 @@ JOB_START_HELPER(primogen/ventrue, JOB_PRIMOGEN_VENTRUE)
 
 JOB_START_HELPER(hospital/clinic_director, JOB_CLINIC_DIRECTOR)
 JOB_START_HELPER(hospital/doctor, JOB_DOCTOR)
-JOB_START_HELPER(hospital/clinic_guard, JOB_CLINIC_GUARD)
 
 /* Government & Police */
 /obj/effect/landmark/start/darkpack/law_enforcement
