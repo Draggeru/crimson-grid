@@ -25397,7 +25397,12 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/endron_facility)
 "gdo" = (
-/obj/structure/chair/comfy/shuttle,
+/obj/structure/table,
+/obj/item/kirbyplants/darkpack/random{
+	pixel_y = 8;
+	pixel_x = 7
+	},
+/obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/salubri)
 "gdv" = (
@@ -39406,9 +39411,6 @@
 /area/vtm/interior)
 "jtJ" = (
 /obj/machinery/light/directional/north,
-/obj/structure/platform/lowwall/city,
-/obj/structure/table,
-/obj/effect/decal/wallpaper/blue/low,
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/salubri)
 "jtL" = (
@@ -62167,6 +62169,10 @@
 /obj/structure/sign/city/order/directional/west,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop)
+"oMZ" = (
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/salubri)
 "oNe" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 4
@@ -67190,6 +67196,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/grey/inner_corner,
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
 /turf/open/floor/city/clinic,
 /area/vtm/interior/salubri)
 "pVM" = (
@@ -173768,7 +173777,7 @@ fAa
 uEE
 agC
 ktB
-vlN
+oMZ
 vlN
 vlN
 vlN
@@ -176010,7 +176019,7 @@ pJF
 nrN
 ktB
 jtJ
-aiG
+kSc
 kSc
 kSc
 szM
@@ -176828,7 +176837,7 @@ ktB
 psU
 yjJ
 pVI
-kSc
+aiG
 ktB
 vTG
 dnN
