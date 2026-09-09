@@ -356,6 +356,10 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/wyrm_corrupted)
+"aeW" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/museum)
 "aeX" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 8
@@ -6329,6 +6333,7 @@
 /obj/structure/sign/painting/library{
 	pixel_y = 32
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/museum)
 "bAY" = (
@@ -169314,13 +169319,13 @@ gQo
 daK
 fsH
 sOJ
-fFa
+mNb
 dar
 fFE
 fFE
 dar
 byX
-fFa
+ePv
 fFa
 byX
 bzp
@@ -171370,7 +171375,7 @@ daK
 daK
 dvL
 kog
-fFa
+aeW
 dar
 fFE
 fFE
