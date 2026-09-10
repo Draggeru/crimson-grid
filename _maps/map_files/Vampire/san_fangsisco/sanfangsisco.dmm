@@ -830,7 +830,7 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8
 	},
-/obj/structure/chair/office/light{
+/obj/structure/chair/office/darkpack{
 	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/old,
@@ -3953,7 +3953,7 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/oldchurch)
 "aVV" = (
-/obj/item/chair/stool/bar,
+/obj/item/chair/stool/bar/darkpack/red,
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
 "aVW" = (
@@ -9692,6 +9692,12 @@
 /obj/item/melee/vamp/tire,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch/basement)
+"cnY" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/anarch)
 "cob" = (
 /obj/structure/railing{
 	pixel_y = -1
@@ -11172,7 +11178,7 @@
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/millennium_tower/f3)
 "cHS" = (
-/obj/item/chair/stool/bar,
+/obj/item/chair/stool/bar/darkpack/red,
 /obj/machinery/light/small/pink/directional/north,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
@@ -15247,7 +15253,7 @@
 /area/vtm/interior/shop/bubway)
 "dLx" = (
 /obj/structure/table,
-/obj/item/chair/stool/bar,
+/obj/item/chair/stool/bar/darkpack/red,
 /turf/open/floor/city/plating,
 /area/vtm/interior/clinic/haven)
 "dLA" = (
@@ -26774,7 +26780,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/anarch)
 "gGw" = (
-/obj/structure/chair/office/light,
+/obj/structure/chair/office/darkpack,
 /obj/effect/decal/carpet{
 	icon_state = "rug_blue";
 	pixel_x = 1;
@@ -33841,7 +33847,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior)
 "iwq" = (
-/obj/structure/chair/office/light,
+/obj/structure/chair/office/darkpack,
 /obj/effect/landmark/start/darkpack/hospital/doctor,
 /obj/effect/turf_decal/siding/grey/corner{
 	dir = 1
@@ -35420,9 +35426,8 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch/basement)
 "iSs" = (
-/obj/structure/chair/plastic{
-	dir = 8;
-	pixel_y = 4
+/obj/structure/chair/plastic/darkpack{
+	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
@@ -38721,7 +38726,6 @@
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "jKx" = (
-/obj/machinery/light/directional/south,
 /obj/structure/chair/sofa/corp{
 	dir = 1
 	},
@@ -67720,7 +67724,9 @@
 /turf/open/floor/iron/stairs/medium,
 /area/vtm/interior/jazzclub)
 "qYS" = (
-/obj/structure/toilet,
+/obj/structure/toilet{
+	pixel_y = 16
+	},
 /turf/open/floor/city/toilet,
 /area/vtm/interior/church/staff)
 "qZa" = (
@@ -70276,7 +70282,7 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/shop/pharmacy)
 "rDR" = (
-/obj/item/chair/stool/bar,
+/obj/item/chair/stool/bar/darkpack/red,
 /obj/effect/decal/cleanable/greenglow/ecto,
 /turf/open/floor/plating/rust,
 /area/vtm/interior/strip)
@@ -83369,7 +83375,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/financialdistrict)
 "uVp" = (
-/obj/structure/chair/office/light{
+/obj/structure/chair/office/darkpack{
 	dir = 4
 	},
 /turf/open/floor/carpet/darkpack/old,
@@ -90038,7 +90044,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights/old)
 "wGu" = (
-/obj/item/chair/stool/bar,
+/obj/item/chair/stool/bar/darkpack/red,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
 "wGw" = (
@@ -94698,7 +94704,7 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower)
 "xMh" = (
-/obj/structure/chair/office/light,
+/obj/structure/chair/office/darkpack,
 /obj/effect/landmark/start/darkpack/hospital/doctor,
 /obj/effect/turf_decal/siding/grey/corner{
 	dir = 4
@@ -183776,7 +183782,7 @@ qjr
 qLB
 qLB
 pDs
-ugF
+cnY
 giR
 kFn
 iTQ
@@ -184290,7 +184296,7 @@ dsa
 qLB
 qLB
 nAW
-pMC
+ugF
 giR
 eJa
 eJa
